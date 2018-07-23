@@ -16,6 +16,12 @@
 
 
 	<dependencies>
+	
+		<dependency>
+			<groupId>net.sf.barcode4j</groupId>
+			<artifactId>barcode4j</artifactId>
+			<version>2.1</version>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
@@ -98,6 +104,19 @@
 			<artifactId>spring-context-support</artifactId>
 			<version>4.1.4.RELEASE</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>3.3.6</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jQuery</artifactId>
+			<version>1.11.1</version>
+		</dependency>
+		
 	</dependencies>
 	<build>
 		<finalName>MITSTOCK</finalName>

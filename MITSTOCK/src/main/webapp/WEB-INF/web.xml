@@ -25,6 +25,16 @@ version="3.0">
 		<servlet-name>servlet-dispatcher</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+	
+	<!-- Configuration des pages JSP -->
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>*.jsp</url-pattern>
+			<include-prelude>/WEB-INF/views/jspf/header.jspf</include-prelude>
+			<include-coda>/WEB-INF/views/jspf/footer.jspf</include-coda>
+		</jsp-property-group>
+	</jsp-config>
+	<!-- Fin configuration JSP -->
 
 </web-app>
 
